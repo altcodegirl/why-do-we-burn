@@ -175,20 +175,15 @@ function setup() {
 }
 
 function draw() {
-
   background(0, 128, 145);
   fill(255);
   textSize(50);
-  text(question, 14, 150)
-  text(intro + answers[index], 14, 300);
+  text(question, 14, 150);
+  text(intro + random(answers), 14, 300);
+  noLoop();
 }
 
-//to move through to the next word when mouse is pressed
+//to move through to the next answer when mouse is pressed
 function mousePressed() {
-  index = index + 1;
-
-//to make it start again at the beginning no matter how many words you add
-  if (index == answers.length) {
-    index = 0;
-  }
+//have something here to start draw again
 }

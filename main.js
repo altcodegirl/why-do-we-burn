@@ -185,5 +185,7 @@ function draw() {
 
 //to move through to the next answer when mouse is pressed
 function mousePressed() {
+  loop();
 //have something here to start draw again
 }
+

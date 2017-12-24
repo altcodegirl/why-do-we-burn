@@ -172,8 +172,8 @@ var index = 0;
 
 function setup() {
 //must be same as createCanvas size
-//bg = loadImage("example.jpg");
-  createCanvas(1200, 600);
+  bg = loadImage("example.jpg");
+  createCanvas(4352, 3264);
 }
 
 function draw() {
@@ -188,5 +188,4 @@ function draw() {
 //to move through to the next answer when mouse is pressed
 function mousePressed() {
   loop();
-//have something here to start draw again
 }

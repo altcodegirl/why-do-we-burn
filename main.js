@@ -173,7 +173,7 @@ var index = 0;
 function setup() {
 //must be same as createCanvas size
   bg = loadImage("example.jpg");
-  createCanvas(4352, 3264);
+  createCanvas(1200, 900);
 }
 
 function draw() {

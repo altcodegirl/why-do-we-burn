@@ -172,12 +172,13 @@ var index = 0;
 
 function setup() {
 //must be same as createCanvas size
-  bg = loadImage("example.jpg");
+//  bg = loadImage("example.jpg");
   createCanvas(1200, 900);
 }
 
 function draw() {
-  background(bg);
+//  background(bg);
+  background(0);
   fill(255);
   textSize(50);
   text(question, 14, 150);
@@ -187,5 +188,5 @@ function draw() {
 
 //to move through to the next answer when mouse is pressed
 function mousePressed() {
-  loop();
+  redraw();
 }
